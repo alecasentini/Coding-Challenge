@@ -1,0 +1,83 @@
+body{
+    background-image: url("background.jpg");
+    background-size: 100%; 
+}
+
+.container{ 
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    width: 51%;
+    padding: 6%;
+    text-align: center;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%
+
+}
+
+.logo{
+    width: 25%;
+    
+}
+
+.title{
+    color: rgb(8, 220, 4);
+    font-family: 'Kanit', sans-serif;
+    font-size: 30px;
+}
+.container-button{
+    background-color: rgb(8, 220, 4);
+    text-align: center;
+    padding: 1%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-checkbox{
+    text-align: left;
+    font-family: 'Kanit' , sans-serif;
+    width: 80%;
+    margin-left: 0%;
+    margin-top: 1%;
+    
+}
+.choose{
+    display: inline-block;
+}
+.name{
+    display: inline-block;
+    color: white;
+    font-size: 30px;
+}
+.address{
+    color: lightgray;
+}
+.address::before{
+    content:"\21A6";
+}
+.status{
+    color: lightgray;
+}
+.charge-50{
+    padding: 2%;
+    width: 40%;
+    height: 2%;
+    background: rgba(245, 180, 83, 255);
+    border-radius: 5px;
+    
+}
+.charge-100{
+    padding: 2%;
+    width: 70%;
+    height: 2%;
+    background: rgba(30, 195, 30, 255);
+    border-radius: 5px;
+}
+.charge-25{
+    padding: 2%;
+    width: 15%;
+    height: 2%;
+    background: rgba(190, 65, 65, 255);
+    border-radius: 5px;
+}
